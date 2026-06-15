@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <title>Blogger Template with B-Skin</title>
+  
+  <b:skin><![CDATA[
+    
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 40px;
+      }
+      .result-box {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+    
+  ]]></b:skin>
+</head>
+<body>
+<div>
+<b:with value='&quot;anyrandom|anddynamic&quot;' var='fullText'> 
+  
+    <b:eval expr='data:fullText'/>
+  </b:with>
+  </div>
+<b:section id='main'/>
+</body>
+</html>
